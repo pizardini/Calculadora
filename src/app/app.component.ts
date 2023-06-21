@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Calculadora';
+  title = 'calculadora';
+
+  clicou(valor: number) {
+    console.log(`Clicou no ${valor}`);
+  }
 }
