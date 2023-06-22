@@ -11,4 +11,10 @@ export class AppComponent {
   clicou(valor: number) {
     console.log(`Clicou no ${valor}`);
   }
+
+  valorOperacao: string = "0"
+
+  adicionarValor(valor: number): void {
+    this.valorOperacao += valor;
+  }
 }
